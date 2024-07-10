@@ -1,0 +1,82 @@
+5x5=25 box
+
+solution for 1: 
+
+(from move 3 to move 17 [starting from and depends on anti-move 1; 2])
+
+
+solution for anti: 
+
+for vertical moves (if you want to find a vertical counter move to a vertical move): find three rows below or three rows above at the same pathway, as follows; 
+
+same principle as underlined below
+
+reverse mirror the mirroring pathway to find other solution
+
+
+for horizontal moves (if you want to find a horizontal counter move to a horizontal move): find three columns below or three columns above at the same pathway, as follows; 
+
+if the mirroring pathway>column 2; put two columns below the pathway;
+or, if the mirroring pathway<column 3; put two columns above the pathway;
+
+reverse mirror the mirroring pathway to find other solution
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+clarify this;
+
+for description of vertical counter move to a horizontal move;
+
+	in order to find a vertical counter move; you corner the horizontal and put column-wise to the right-below side, if: the horizontal move is; vertical move<column 3 from the left side
+
+
+	in order to find a vertical counter move; you corner the horizontal and put column-wise to the left-below side, if: the horizontal move is; vertical move>column 3 from the left side
+
+
+for description of horizontal counter move to a vertical move; 
+
+
+	in order to find a horizontal counter move; you corner the vertical and put column-wise to the above-left side, if: the vertical is; <column 3, <row 3 (4, 5); left above
+
+
+	in order to find a horizontal counter move; you corner the vertical and put column-wise to the above-right side, if: the vertical is; >column 3, >row 3 (1, 2); left above
+
+in order to find a horizontal counter move; you corner the vertical and put column-wise to the below-left side, if: the vertical is; >column 3, >row 3 (1, 2); left above
+
+
+	in order to find a horizontal counter move; you corner the vertical and put column-wise to the below-right side, if: the vertical move is; >column 3, >row 3 (4, 5); left above
+
+(from move 2 to move 16/18)
+
+
+
+
+
+
+
+
+
+
+
+
